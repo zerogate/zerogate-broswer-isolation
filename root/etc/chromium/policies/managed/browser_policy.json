@@ -1,0 +1,18 @@
+{
+    "BrowserGuestModeEnabled": false,
+    "BrowserAddPersonEnabled": false,
+    "URLAllowlist":[
+        "chrome://new-tab-page",
+        "chrome://bookmarks/"
+    ],
+    "URLBlocklist":[
+        "file://*",
+        "chrome:*"
+    ],
+    "IncognitoModeAvailability": 1,
+    "SyncDisabled": true,
+    "PasswordManagerEnabled": false,
+    "PasswordSharingEnabled": false,
+    "DownloadRestrictions": 3,
+    "PrintingEnabled": false
+}
