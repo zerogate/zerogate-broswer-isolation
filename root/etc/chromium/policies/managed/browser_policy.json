@@ -14,5 +14,9 @@
     "PasswordManagerEnabled": false,
     "PasswordSharingEnabled": false,
     "DownloadRestrictions": 3,
-    "PrintingEnabled": false
+    "PrintingEnabled": false,
+    "ScreenCaptureAllowed": false,
+    "BlockExternalExtensions": true,
+    "ExtensionInstallBlocklist": ["*"],
+    "DeveloperToolsAvailability": 2
 }

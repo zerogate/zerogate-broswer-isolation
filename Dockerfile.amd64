@@ -269,5 +269,11 @@ RUN \
     rm -rf \
     /tmp/*
 
+RUN echo "**** local fonts ****" && \
+    apk add --no-cache font-terminus font-noto font-noto-extra font-arabic-misc && \
+    apk add --no-cache font-misc-cyrillic font-mutt-misc font-screen-cyrillic font-winitzki-cyrillic font-cronyx-cyrillic && \
+    apk add --no-cache font-noto-arabic font-noto-armenian font-noto-cherokee font-noto-devanagari font-noto-ethiopic font-noto-georgian && \
+    apk add --no-cache font-noto-hebrew font-noto-lao font-noto-malayalam font-noto-tamil font-noto-thaana 
+
 # add local files
 COPY /root /
