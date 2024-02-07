@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t chromium -t zerogate_browser:latest .
+docker build -t zerogate_browser:local .
